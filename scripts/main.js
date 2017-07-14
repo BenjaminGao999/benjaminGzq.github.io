@@ -1,13 +1,13 @@
-// var myImage = document.querySelector('img');
+var myImage = document.querySelector('img');
 
-// myImage.onclick = function() {
-//     var mySrc = myImage.getAttribute('src');
-//     if(mySrc === 'images-folder/apple-tree.jpg') {
-//       myImage.setAttribute ('src','images-folder/watermelons-field.jpg');
-//     } else {
-//       myImage.setAttribute ('src','images-folder/apple-tree.jpg');
-//     }
-// }
+myImage.onclick = function() {
+    var mySrc = myImage.getAttribute('src');
+    if(mySrc === 'images/apple-tree.jpg') {
+      myImage.setAttribute ('src','images/watermelons-field.jpg');
+    } else {
+      myImage.setAttribute ('src','images/apple-tree.jpg');
+    }
+}
 
 var myButton = document.querySelector('button');
 
